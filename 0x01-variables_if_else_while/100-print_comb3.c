@@ -21,7 +21,7 @@ int main(void)
 				continue;
 
 			else if (digit1 == digit2)
-				putchar('');
+				putchar(' ');
 
 			putchar(',');
 			putchar(' ');
