@@ -10,7 +10,7 @@ int main(void)
 {
 	char ch;
 
-	putchar("\nLowercase characters : \n");
+	/* putchar("\nLowercase characters : \n"); */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar("%c ", ch);
