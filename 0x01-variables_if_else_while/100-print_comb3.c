@@ -20,6 +20,9 @@ int main(void)
 			if (digit1 == 9 && digit2 == 9)
 				continue;
 
+			else if (digit1 == digit2)
+				continue;
+
 			putchar(',');
 			putchar(' ');
 		}
