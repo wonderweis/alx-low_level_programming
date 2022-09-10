@@ -10,7 +10,9 @@
 
 int main(void)
 {
-	char ch;
+	int ch;
+
+	clrscr();
 
 	/* putchar("\nLowercase characters : \n"); */
 	for (ch = 'a'; ch <= 'z'; ch++)
