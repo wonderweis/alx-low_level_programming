@@ -12,8 +12,6 @@ int main(void)
 {
 	int ch;
 
-	clrscr();
-
 	/* putchar("\nLowercase characters : \n"); */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
