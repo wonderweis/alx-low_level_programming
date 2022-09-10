@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -13,7 +15,8 @@ int main(void)
 	/* putchar("\nLowercase characters : \n"); */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar("%c ", ch);
+		putchar ("%c ", ch);
+		putchar ("\n");
 	}
 	return (0);
 }
