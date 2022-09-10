@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	int ch;
+	char ch;
 
 	/* putchar("\nLowercase characters : \n"); */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar ("%c ", ch);
-		putchar ("\n");
+		putchar(ch);
+		putchar("\n");
 	}
 	return (0);
 }
