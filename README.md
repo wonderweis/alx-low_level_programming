@@ -1,1 +1,1 @@
-Starting C proramming and it is awesome
+program that prints _putchar, followed by a new line.
