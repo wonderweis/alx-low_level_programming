@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main- generates random passwords
+ * main- generates random passwords keygen
  *
  * Return: value 0
  */
