@@ -2,9 +2,8 @@
 
 /**
  * string_toupper - lower to uppercase 
- * @str: string
- *
- * Return: string
+ * @str: string to modify
+ * Return: string character
  */
 
 char *string_toupper(char *str)
