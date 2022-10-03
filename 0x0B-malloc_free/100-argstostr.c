@@ -4,7 +4,6 @@
  * argstostr - concatenates all arguments
  * @ac: width of grid
  * @av: height of grid
- *
  * Return: the args one line at a time
  */
 
@@ -21,16 +20,13 @@ char *argstostr(int ac, char **av)
 	while (a < ac)
 	{
 		b = 0;
-
 		while (av[a][b] != '\0')
 		{
 			count++;
 			b++;
 		}
-
 		a++;
 	}
-
 	count = count + ac + 1;
 	str = malloc(sizeof(char) * count);
 
@@ -38,7 +34,6 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-
 	for (a = 0; a < ac; a++)
 	{
 		for (b = 0; av[a][b] != '\0'; b++)
@@ -46,10 +41,8 @@ char *argstostr(int ac, char **av)
 			str[c] = av[a][b];
 			c++;
 		}
-
 		str[c] = '\n';
 		c++;
 	}
-
 	return (str);
 }
