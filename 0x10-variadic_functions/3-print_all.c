@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+
 /**
  * print_all - prints all
  * @format: param
@@ -22,7 +23,6 @@ void print_all(const char * const format, ...)
 				break;
 			} j++;
 		}
-
 		switch (format[i])
 		{
 		case 'c':
